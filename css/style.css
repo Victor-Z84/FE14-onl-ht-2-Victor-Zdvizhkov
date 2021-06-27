@@ -1,0 +1,21 @@
+@import url("../css/awesome.css");
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+    
+}
