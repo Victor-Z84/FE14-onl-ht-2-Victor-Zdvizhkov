@@ -1,0 +1,89 @@
+.pricing {
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #E5E5E5;
+}
+
+.pricing-title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #212121;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.pricing-line {
+    border-top: 1px solid #E72424;
+    width: 64px;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.pricing-discription {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    margin-bottom: 63px;
+}
+
+.price-cards-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price-row-item {
+    width: 340px;
+}
+
+.price-item-title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: #333333;
+    line-height: 50px;
+    margin-bottom: 1px;
+}
+
+.price {
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #FFFFFF;
+    background-color: #333333;
+    line-height: 100px;
+    margin-bottom: 2px;
+}
+
+.price-item-discription {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #333333;
+    line-height: 50px;
+}
+
+#price-item-discription-1 {
+    background-color: #D98943;
+}
+
+.price-item-option {
+    font-family: 'Open Sans';
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 14px;
+    color: #86878B;
+    background-color: #FFFFFF;
+    line-height: 40px;
+    margin-top: 4px;
+}
