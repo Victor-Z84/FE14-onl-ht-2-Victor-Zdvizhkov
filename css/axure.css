@@ -1,0 +1,69 @@
+.axure {
+    background-image: url(../img/axure.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 58px;
+    padding-bottom: 38px;
+    position: relative;
+
+}
+
+.axure::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.container-axure {
+    z-index: 1;
+    position: relative
+    
+}
+
+.axure-title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.axure-title::after {
+    content: " ";
+    display: block;
+    margin: auto;
+    width: 64px;
+    border-top: 1px solid #FFFFFF;
+    margin-bottom: 34px;
+    margin-top: 34px;
+}
+
+.axure-discription-text {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 57px;
+
+}
+
+.axure-download {
+    border: 1px solid #FFFFFF;
+    width: 135px;
+    margin: auto;
+}
+
+.axure-download-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 42px;
+}

@@ -1,0 +1,120 @@
+
+.customers {
+    padding-top: 80px;
+    padding-bottom: 120px;
+    
+}
+
+.customers-title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.customers-title::after {
+    content: " ";
+    display: block;
+    margin: auto;
+    width: 64px;
+    border-top: 1px solid #E72424;
+    margin-bottom: 34px;
+    margin-top: 34px;
+}
+
+.customers-discription {
+    max-width: 363px;
+    margin: auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    margin-bottom: 67px;
+}
+
+.customers-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+
+}
+
+.customers-row-item {
+    width: 298px;
+
+}
+
+.customers-row-item-feedback {
+    
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    margin-bottom: 22px;
+    padding: 9px 22px 6px 23px;
+    position: relative;
+
+}
+
+.customers-row-item-feedback::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 12px solid #E2E2E2;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+}
+
+.customers-row-item-feedback-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.customers-row-item-autor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.customers-row-item-autor-photo-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.customers-row-item-autor-about {
+    width: 97px;
+    flex-direction: column;
+  
+}
+
+.customers-row-item-autor-about-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    display: block;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+
+.customers-row-item-autor-about-profession {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    display: block;
+    margin-left: auto;
+
+}
