@@ -30,7 +30,7 @@
     line-height: 19px;
     color: #86878B;
     text-align: left;
-    width: 365px;
+    max-width: 365px;
 }
 
 .social-right-part {
