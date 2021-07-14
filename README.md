@@ -1,3 +1,3 @@
 # FE14-onl-ht-2-Victor-Zdvizhkov
-Home Tasks 2,3,4,5,6:
+Home Tasks 2,3,4,5,6,7:
 https://victor-z84.github.io/FE14-onl-ht-2-Victor-Zdvizhkov/
