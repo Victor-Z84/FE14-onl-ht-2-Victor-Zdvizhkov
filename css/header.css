@@ -1,7 +1,9 @@
 .header-row {
     background: rgba(0, 0, 0, 1);
-    padding-top: 20px;
-    padding-bottom: 19px;
+    /* padding-top: 20px; */
+    padding-top: 1.25rem;
+    /* padding-bottom: 19px; */
+    padding-bottom: 1.1875rem;
 }
 
 .container-nav {
@@ -11,15 +13,18 @@
 }
 
 .header-logo {
-    line-height: 35px;
-    min-width: 68px;
+    /* line-height: 35px; */
+    line-height: 2.1875rem;
+    /* min-width: 68px; */
+    min-width: 4.25rem;
 }
 
 .header-logo-text {
     font-family: Raleway;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.875rem;
     color: #FFFFFF;
     text-transform: uppercase;
 }
@@ -36,7 +41,8 @@
 }
 
 .header-naw-row-item {
-    margin-left: 48px;
+    /* margin-left: 48px; */
+    margin-left: 3rem;
 }
 
 
@@ -44,12 +50,15 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 0.9375rem;
     color: rgba(255, 255, 255, 0.7);
 }
 
 .header-naw-row-item-link:hover {
     color: #EC7979;
-    border-left: 3px solid #EC7979;
-    border-bottom: 3px solid #EC7979;
+    /* border-left: 3px solid #EC7979;
+    border-bottom: 3px solid #EC7979; */
+    border-left: 0.1875rem solid #EC7979;
+    border-bottom: 0.1875rem solid #EC7979;
 }

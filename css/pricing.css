@@ -1,7 +1,8 @@
 .pricing {
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    /* padding-top: 80px; */
+    padding-top: 5rem;
+    /* padding-bottom: 80px; */
+    padding-bottom: 5rem;
     background-color: #F5F5F5;
 }
 
@@ -9,26 +10,34 @@
     font-family: Raleway;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    /* font-size: 36px; */
+    font-size: 2.25rem;
     color: #212121;
     text-transform: uppercase;
-    margin-bottom: 34px;
 }
 
-.pricing-line {
-    border-top: 1px solid #E72424;
-    width: 64px;
+.pricing-title::after {
+    content: " ";
+    display: block;
     margin: auto;
-    margin-bottom: 34px;
+    /* width: 64px; */
+    width: 4rem;
+    border-top: 1px solid #E72424;
+    /* margin-bottom: 34px; */
+    margin-bottom: 2.125rem;
+    /* margin-top: 34px; */
+    margin-top: 2.125rem;
 }
 
-.pricing-discription {
+.pricing-description {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     color: #86878B;
-    margin-bottom: 63px;
+    /* margin-bottom: 47px; */
+    margin-bottom: 2.9375rem;
 }
 
 .price-cards-row {
@@ -39,7 +48,8 @@
 }
 
 .price-row-item {
-    width: 340px;
+    /* width: 340px; */
+    width: 21.25rem;
 }
 
 .price-item-title {
@@ -47,31 +57,39 @@
     font-weight: 700;
     font-style: normal;
     color: #FFFFFF;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.25rem;
     background-color: #333333;
-    line-height: 50px;
-    margin-bottom: 1px;
+    /* line-height: 50px; */
+    line-height: 3.125rem;
+    /* margin-bottom: 2px; */
+    margin-bottom: 0.125rem;
 }
 
 .price {
     font-family: Raleway;
     font-weight: 700;
     font-style: normal;
-    font-size: 35px;
+    /* font-size: 35px; */
+    font-size: 2.1875rem;
     color: #FFFFFF;
     background-color: #333333;
-    line-height: 100px;
-    margin-bottom: 2px;
+    /* line-height: 100px; */
+    line-height: 6.25rem;
+    /* margin-bottom: 2px; */
+    margin-bottom: 0.125rem;
 }
 
 .price-item-discription {
     font-family: 'Open Sans';
     font-weight: 600;
     font-style: normal;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
     background-color: #333333;
-    line-height: 50px;
+    /* line-height: 50px; */
+    line-height: 3.125rem;
 }
 
 .price-item-discription:hover {
@@ -82,9 +100,12 @@
     font-family: 'Open Sans';
     font-weight: 400; 
     font-style: normal;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     color: #86878B;
     background-color: #FFFFFF;
-    line-height: 40px;
-    margin-top: 4px;
+    /* line-height: 40px; */
+    line-height: 2.5rem;
+    /* margin-top: 4px; */
+    margin-top: 0.25rem;
 }
